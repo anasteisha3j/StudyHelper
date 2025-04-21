@@ -14,9 +14,10 @@ namespace StudyHelper.Controllers
 
         private readonly UserManager<User> _userManager;  // Змінив IdentityUser на User
 
-        public AdminController(UserManager<User> userManager)  // Оновлений конструктор
+        public AdminController(UserManager<User> userManager, ApplicationDbContext dbContext)  // Оновлений конструктор
         {
             _userManager = userManager;
+            _dbContext = dbContext;
         }
 
         public async Task<IActionResult> Index()
@@ -40,9 +41,9 @@ namespace StudyHelper.Controllers
                 {
                     Id = u.Id,
                     Email = u.Email,
-                    FullName = u.UserName,
+                    FullName = u.FullName,
                     Role = _userManager.GetRolesAsync(u).Result.FirstOrDefault(),
-                    LastActivity = DateTime.Now // Replace with actual last activity from your DB
+                    LastActivity = u.LastActivity // Replace with actual last activity from your DB
                 }).ToList()
             };
 
@@ -91,5 +92,32 @@ namespace StudyHelper.Controllers
         };
 
         return View(model);
+    }
+
+    public async Task<IActionResult> UserDownloads()
+    {
+        var users = await _userManager.Users.ToListAsync();
+        var downloadStats = new List<UserDownloadStats>();
+
+        foreach (var user in users)
+        {
+            var userFiles = await _dbContext.StudyFiles
+                .Where(f => f.Study.UserId == user.Id)
+                .ToListAsync();
+
+            var stats = new UserDownloadStats
+            {
+                UserId = user.Id,
+                FullName = user.FullName,
+                Email = user.Email,
+                TotalDownloadSize = userFiles.Sum(f => f.FileSize),
+                TotalFiles = userFiles.Count,
+                LastDownloadDate = userFiles.Any() ? userFiles.Max(f => f.UploadDate) : DateTime.MinValue
+            };
+
+            downloadStats.Add(stats);
+        }
+
+        return View(downloadStats);
     }
 }}

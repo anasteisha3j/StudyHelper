@@ -1,283 +1,295 @@
 {
   "Files": [
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StudyHelper.bundle.scp.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StudyHelper.bundle.scp.css",
       "PackagePath": "staticwebassets\\StudyHelper.58jm4k4b38.bundle.scp.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\css\\site.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\favicon.ico",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\favicon.ico",
       "PackagePath": "staticwebassets\\favicon.ico"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\js\\site.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\js\\site.js",
       "PackagePath": "staticwebassets\\js\\site.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\LICENSE",
       "PackagePath": "staticwebassets\\lib\\bootstrap"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\dist\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.js",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.js"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\lib\\jquery\\dist\\jquery.slim.min.map",
       "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.slim.min.map"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\000ce553-a7b6-483a-bfec-6c982975cc85.pdf",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\000ce553-a7b6-483a-bfec-6c982975cc85.pdf",
       "PackagePath": "staticwebassets\\uploads\\000ce553-a7b6-483a-bfec-6c982975cc85.pdf"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\2918af18-2581-4621-835a-7ac7fd6b75bc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\2918af18-2581-4621-835a-7ac7fd6b75bc.pdf"
+    },
+    {
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx",
       "PackagePath": "staticwebassets\\uploads\\2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\5e61915a-e6d3-4169-bec3-bf1a5ccef234.docx",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\5e61915a-e6d3-4169-bec3-bf1a5ccef234.docx",
       "PackagePath": "staticwebassets\\uploads\\5e61915a-e6d3-4169-bec3-bf1a5ccef234.docx"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\cbfe4113-4d79-472b-a0b4-93362be0acb8.pdf",
+      "PackagePath": "staticwebassets\\uploads\\cbfe4113-4d79-472b-a0b4-93362be0acb8.pdf"
+    },
+    {
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\d8c62790-8019-4b7e-8865-5d1889a1b5fc.pdf",
+      "PackagePath": "staticwebassets\\uploads\\d8c62790-8019-4b7e-8865-5d1889a1b5fc.pdf"
+    },
+    {
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf",
       "PackagePath": "staticwebassets\\uploads\\e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\ea1b9bac-291c-4202-96d1-451447d614fd.pdf",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\ea1b9bac-291c-4202-96d1-451447d614fd.pdf",
       "PackagePath": "staticwebassets\\uploads\\ea1b9bac-291c-4202-96d1-451447d614fd.pdf"
     },
     {
-      "Id": "D:\\StudyHelperA\\StudyHelper\\wwwroot\\uploads\\f263dcbb-5707-424e-a531-a67fa8aecbf6.pdf",
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\uploads\\f263dcbb-5707-424e-a531-a67fa8aecbf6.pdf",
       "PackagePath": "staticwebassets\\uploads\\f263dcbb-5707-424e-a531-a67fa8aecbf6.pdf"
     },
     {

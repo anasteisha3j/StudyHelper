@@ -43,7 +43,8 @@ public async Task<IActionResult> Register(RegisterViewModel model)
         {
             UserName = model.Email,
             Email = model.Email,
-            FullName = model.FullName
+            FullName = model.FullName,
+            LastActivity = DateTime.Now
         };
 
         var result = await _userManager.CreateAsync(user, model.Password);
@@ -93,6 +94,8 @@ public async Task<IActionResult> Login(LoginViewModel model)
     if (result.Succeeded)
     {
         var user = await _userManager.FindByEmailAsync(model.Email);
+        user.LastActivity = DateTime.Now;
+        await _userManager.UpdateAsync(user);
 
         if (await _userManager.IsInRoleAsync(user, "Admin"))
         {
