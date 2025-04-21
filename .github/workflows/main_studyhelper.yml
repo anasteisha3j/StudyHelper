@@ -26,14 +26,17 @@ jobs:
       - name: Build with dotnet
         run: dotnet build --configuration Release
 
-      - name: dotnet publish
-        run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      # - name: dotnet publish
+      #   run: dotnet publish -c Release -o ${{env.DOTNET_ROOT}}/myapp
+      - name: Publish
+        run: dotnet publish StudyHelper/StudyHelper.csproj --configuration Release --output ./publish
+
 
       - name: Upload artifact for deployment job
         uses: actions/upload-artifact@v4
         with:
           name: .net-app
-          path: ${{env.DOTNET_ROOT}}/myapp
+          path: StudyHelper/StudyHelper.csproj 
 
   deploy:
     runs-on: ubuntu-latest
