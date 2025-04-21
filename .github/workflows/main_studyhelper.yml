@@ -66,6 +66,6 @@ jobs:
         uses: azure/webapps-deploy@v3
         with:
           app-name: 'studyhelper'
-          slot-name: 'Production'
+          slot-name: ''
           package: .
           
