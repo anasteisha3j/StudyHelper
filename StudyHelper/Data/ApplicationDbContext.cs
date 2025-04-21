@@ -26,6 +26,7 @@ namespace StudyApp.Data
                 .HasForeignKey(f => f.StudyId)
                 .OnDelete(DeleteBehavior.Cascade);
         }
+        public DbSet<StorageViolation> StorageViolations { get; set; }
 
 
 

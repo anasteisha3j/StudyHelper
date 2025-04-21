@@ -3290,11 +3290,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\StudyHelper\\StudyHelper\\StudyHelper.csproj",
+      "projectUniqueName": "D:\\StudyHelperA\\StudyHelper\\StudyHelper.csproj",
       "projectName": "StudyHelper",
-      "projectPath": "D:\\StudyHelper\\StudyHelper\\StudyHelper.csproj",
+      "projectPath": "D:\\StudyHelperA\\StudyHelper\\StudyHelper.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "D:\\StudyHelper\\StudyHelper\\obj\\",
+      "outputPath": "D:\\StudyHelperA\\StudyHelper\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

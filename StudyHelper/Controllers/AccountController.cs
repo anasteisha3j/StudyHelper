@@ -7,6 +7,7 @@ using StudyApp.Data;
 
 public class AccountController : Controller
 {
+    
     private readonly UserManager<User> _userManager;
     private readonly SignInManager<User> _signInManager;
     private readonly ApplicationDbContext _context;
@@ -53,14 +54,12 @@ public async Task<IActionResult> Register(RegisterViewModel model)
             return RedirectToAction("Index", "Home");
         }
 
-        // Додати всі помилки до ModelState
         foreach (var error in result.Errors)
         {
             ModelState.AddModelError(string.Empty, error.Description);
         }
     }
 
-    // Якщо ми дійшли сюди – щось пішло не так
     return View(model);
 }
 
@@ -69,19 +68,47 @@ public async Task<IActionResult> Register(RegisterViewModel model)
     public IActionResult Login() => View();
 
     // Login (POST)
+    // [HttpPost]
+    // public async Task<IActionResult> Login(LoginViewModel model)
+    // {
+    //     if (!ModelState.IsValid) return View(model);
+
+    //     var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+
+    //     if (result.Succeeded)
+    //         return RedirectToAction("Index", "Home");
+
+    //     ModelState.AddModelError("", "Invalid login attempt.");
+    //     return View(model);
+    // }
+
     [HttpPost]
-    public async Task<IActionResult> Login(LoginViewModel model)
-    {
-        if (!ModelState.IsValid) return View(model);
-
-        var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
-
-        if (result.Succeeded)
-            return RedirectToAction("Index", "Home");
-
-        ModelState.AddModelError("", "Invalid login attempt.");
+public async Task<IActionResult> Login(LoginViewModel model)
+{
+    if (!ModelState.IsValid)
         return View(model);
+
+    var result = await _signInManager.PasswordSignInAsync(model.Email, model.Password, model.RememberMe, false);
+
+    if (result.Succeeded)
+    {
+        var user = await _userManager.FindByEmailAsync(model.Email);
+
+        if (await _userManager.IsInRoleAsync(user, "Admin"))
+        {
+            return RedirectToAction("Index", "Admin");
+        }
+
+        return RedirectToAction("Index", "Home");
     }
+
+    ModelState.AddModelError("", "Неправильний логін або пароль.");
+    return View(model);
+}
+
+
+
+
 
     // Logout
     public async Task<IActionResult> Logout()
@@ -89,4 +116,6 @@ public async Task<IActionResult> Register(RegisterViewModel model)
         await _signInManager.SignOutAsync();
         return RedirectToAction("Login");
     }
+
+    
 }

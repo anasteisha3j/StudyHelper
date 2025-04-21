@@ -19,13 +19,13 @@
                 <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
                 
                 <div class="mb-3">
-                    <label asp-for="Title" class="form-label fw-bold"></label>
+                    <label asp-for="Title" class="form-label fw-bold">Назва</label>
                     <input asp-for="Title" class="form-control" required />
                     <span asp-validation-for="Title" class="text-danger small"></span>
                 </div>
                 
                 <div class="mb-3">
-                    <label asp-for="Category" class="form-label fw-bold"></label>
+                    <label asp-for="Category" class="form-label fw-bold">Категорія</label>
                     <select asp-for="Category" class="form-select" required>
                         <option value="" disabled selected>Оберіть категорію</option>
                         <option value="Лекції">Лекції</option>
@@ -36,7 +36,7 @@
                 </div>
                 
                 <div class="mb-3">
-                    <label asp-for="Tags" class="form-label fw-bold"></label>
+                    <label asp-for="Tags" class="form-label fw-bold">Теги</label>
                     <input asp-for="Tags" class="form-control" placeholder="Наприклад: математика, алгебра, геометрія" />
                     <div class="form-text">Розділяйте теги комами</div>
                     <span asp-validation-for="Tags" class="text-danger small"></span>
@@ -45,9 +45,14 @@
                 <div class="mb-4">
                     <label class="form-label fw-bold">Файли конспекту</label>
                     <input type="file" name="files" multiple class="form-control" 
-                           accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.ppt,.pptx" />
-                    <div class="form-text">Можна вибрати декілька файлів</div>
-                </div>
+                        accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png,.ppt,.pptx"
+                        data-max-size="10485760" /> <!-- 10MB -->
+                            <span asp-validation-for="Files" class="text-danger small"></span> <!-- Додано -->
+
+                        <div class="form-text">
+                            <i class="fas fa-info-circle"></i> Максимальний розмір файлу: 10MB. Дозволені формати: PDF, DOC, XLS, JPG, PNG, PPT
+                        </div>               
+                 </div>
                 
                 <div class="d-grid gap-2 d-md-flex justify-content-md-end">
                     <a asp-action="Index" class="btn btn-outline-secondary me-md-2">
@@ -66,7 +71,7 @@
     @{
         await Html.RenderPartialAsync("_ValidationScriptsPartial");
         <script>
-            // Додаткова клієнтська валідація
+        
             (function () {
                 'use strict'
                 const forms = document.querySelectorAll('.needs-validation')

@@ -43,10 +43,9 @@ namespace StudyApp.Controllers
             var user = await _userManager.GetUserAsync(User);
             if (user == null)
             {
-                return Challenge(); // Перенаправить на сторінку входу, якщо користувач не автентифікований
+                return Challenge(); 
             }
 
-            // Додаткові дії перед перенаправленням (необов'язково)
             var hasStudies = await _context.Studies.AnyAsync(s => s.UserId == user.Id);
             if (!hasStudies)
             {

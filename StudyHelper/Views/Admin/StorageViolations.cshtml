@@ -1,0 +1,47 @@
+@model StudyApp.Models.AdminModel
+
+<style>
+    .violation-card {
+        background: #fff8f8;
+        border-left: 4px solid #ff6b6b;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 0 4px 4px 0;
+    }
+    .violation-meta {
+        font-size: 0.9em;
+        color: #666;
+    }
+    .violation-file {
+        font-weight: bold;
+        color: #d63031;
+    }
+    .violation-user {
+        font-weight: 600;
+    }
+</style>
+
+<div class="admin-dashboard">
+    <h1>Порушення лімітів зберігання</h1>
+    
+    @if (!Model.StorageViolations.Any())
+    {
+        <div class="alert alert-info">Немає зареєстрованих порушень</div>
+    }
+    else
+    {
+        foreach (var violation in Model.StorageViolations)
+        {
+            <div class="violation-card">
+                <div class="violation-user">@violation.UserEmail</div>
+                <div class="violation-meta">
+                    @violation.ViolationDate.ToString("g") | 
+                    Намагався завантажити: <span class="violation-file">@violation.AttemptedFileType</span>
+                </div>
+                <div>
+                    Розмір: @(violation.AttemptedSize / 1024 / 1024) MB (Ліміт: @(violation.MaxAllowed / 1024 / 1024) MB)
+                </div>
+            </div>
+        }
+    }
+</div>

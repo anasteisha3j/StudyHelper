@@ -1,5 +1,3 @@
-
-
 @model StudyApp.Models.Study
 @using Microsoft.AspNetCore.Hosting
 @inject IWebHostEnvironment Environment
@@ -15,7 +13,7 @@
             <h4><i class="fas fa-edit me-2"></i>@ViewData["Title"]</h4>
         </div>
         <div class="card-body">
-            <form asp-action="Edit" enctype="multipart/form-data" class="needs-validation" novalidate>
+            <form id="editForm" asp-action="Edit" enctype="multipart/form-data" class="needs-validation" novalidate>
                 <input type="hidden" asp-for="Id" />
                 <div asp-validation-summary="ModelOnly" class="alert alert-danger"></div>
 
@@ -42,12 +40,11 @@
                     <span asp-validation-for="Tags" class="text-danger small"></span>
                 </div>
 
-<div class="mb-4">
-    <label class="form-label fw-bold">Додати нові файли</label>
-    <input type="file" name="newFiles" multiple class="form-control" 
-           accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png" />
-    <small class="text-muted">Можна вибрати кілька файлів</small>
-</div>
+                <div class="mb-4">
+                    <label class="form-label fw-bold">Додати нові файли</label>
+                    <input type="file" name="newFiles" multiple class="form-control" accept=".pdf,.doc,.docx,.xls,.xlsx,.jpg,.jpeg,.png" />
+                    <small class="text-muted">Можна вибрати кілька файлів</small>
+                </div>
 
                 @if (Model.Files != null && Model.Files.Any())
                 {
@@ -64,8 +61,7 @@
                                         </a>
                                         <small class="text-muted ms-2">(@FormatFileSize(file.FileSize))</small>
                                     </div>
-                                    <button type="button" class="btn btn-sm btn-outline-danger delete-file" 
-                                            data-file-id="@file.Id" data-study-id="@Model.Id">
+                                    <button type="button" class="btn btn-sm btn-outline-danger delete-file" data-file-id="@file.Id" data-study-id="@Model.Id">
                                         <i class="fas fa-trash-alt"></i>
                                     </button>
                                 </div>
@@ -78,7 +74,7 @@
                     <a asp-action="Index" class="btn btn-outline-secondary me-md-2">
                         <i class="fas fa-arrow-left me-1"></i> Назад
                     </a>
-                    <button type="submit" class="btn btn-primary">
+                    <button type="submit" id="submitBtn" class="btn btn-primary">
                         <i class="fas fa-save me-1"></i> Зберегти зміни
                     </button>
                 </div>
@@ -87,103 +83,86 @@
     </div>
 </div>
 
-
-
 @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        <script>
-            $(document).ready(function() {
-                // Обробка видалення файлів
-                $('.delete-file').click(function() {
-                    if (confirm('Ви впевнені, що хочете видалити цей файл?')) {
-                        const fileId = $(this).data('file-id');
-                        const studyId = $(this).data('study-id');
-                        
-                        $.post('@Url.Action("DeleteFile", "Study")', { 
-                            id: fileId, 
-                            studyId: studyId 
-                        }, function() {
-                            location.reload();
-                        });
-                    }
-                });
+    @{ await Html.RenderPartialAsync("_ValidationScriptsPartial"); }
 
-                // Обробка відправки форми
-                $('#editForm').on('submit', function(e) {
-                    e.preventDefault();
-                    
-                    if (!this.checkValidity()) {
-                        e.stopPropagation();
-                        $(this).addClass('was-validated');
-                        return;
-                    }
-
-                    $('#submitBtn').prop('disabled', true);
-                    
-                    // Додаємо індикатор завантаження
-                    $('#submitBtn').html('<span class="spinner-border spinner-border-sm" role="status" aria-hidden="true"></span> Збереження...');
-
-                    // Відправляємо форму через AJAX
-                    $.ajax({
-                        url: $(this).attr('action'),
-                        type: 'POST',
-                        data: new FormData(this),
-                        processData: false,
-                        contentType: false,
-                        success: function(response) {
-                            if (response.redirect) {
-                                window.location.href = response.redirect;
-                            }
-                        },
-                        error: function(xhr) {
-                            alert('Сталася помилка: ' + xhr.responseText);
-                            $('#submitBtn').prop('disabled', false).html('<i class="fas fa-save me-1"></i> Зберегти зміни');
-                        },
-                        complete: function() {
-                            $('#submitBtn').prop('disabled', false).html('<i class="fas fa-save me-1"></i> Зберегти зміни');
-                        }
-                    });
-                });
-            });
-        </script>
-    
-@* @section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-        <script>
-            $(document).ready(function() {
-                $('.delete-file').click(function() {
-                    if (confirm('Ви впевнені, що хочете видалити цей файл?')) {
-                        const fileId = $(this).data('file-id');
-                        const studyId = $(this).data('study-id');
-                        
-                        $.post('@Url.Action("DeleteFile", "Study")', { 
-                            id: fileId, 
-                            studyId: studyId 
-                        }, function() {
-                            location.reload();
-                        });
-                    }
-                });
-            });
-
-            // Додаткова валідація форми
-            (function () {
-                'use strict'
-                const forms = document.querySelectorAll('.needs-validation')
+    <script>
+        $(document).ready(function () {
+            // Валідація Bootstrap
+            (() => {
+                'use strict';
+                const forms = document.querySelectorAll('.needs-validation');
                 Array.from(forms).forEach(form => {
                     form.addEventListener('submit', event => {
                         if (!form.checkValidity()) {
-                            event.preventDefault()
-                            event.stopPropagation()
+                            event.preventDefault();
+                            event.stopPropagation();
                         }
-                        form.classList.add('was-validated')
-                    }, false)
-                })
-            })()
-        </script> *@
-    }
+                        form.classList.add('was-validated');
+                    }, false);
+                });
+            })();
+
+            // Видалення файлу (через AJAX)
+            $('.delete-file').click(function () {
+                if (confirm('Ви впевнені, що хочете видалити цей файл?')) {
+                    const fileId = $(this).data('file-id');
+                    const studyId = $(this).data('study-id');
+
+                    $.post('@Url.Action("DeleteFile", "Study")', {
+                        id: fileId,
+                        studyId: studyId
+                    }).done(function () {
+                        location.reload(); // оновити сторінку після видалення
+                    }).fail(function () {
+                        alert('Помилка при видаленні файлу.');
+                    });
+                }
+            });
+
+            // AJAX-форма
+            $('#editForm').on('submit', function (e) {
+                e.preventDefault();
+
+                const form = this;
+
+                if (!form.checkValidity()) {
+                    e.stopPropagation();
+                    $(form).addClass('was-validated');
+                    return;
+                }
+
+                const $submitBtn = $('#submitBtn');
+                $submitBtn.prop('disabled', true);
+                $submitBtn.html('<span class="spinner-border spinner-border-sm" role="status"></span> Збереження...');
+
+                const formData = new FormData(form);
+
+                $.ajax({
+                    url: $(form).attr('action'),
+                    type: 'POST',
+                    data: formData,
+                    contentType: false,
+                    processData: false,
+                    success: function (response) {
+                        if (response.redirect) {
+                            window.location.href = response.redirect;
+                        } else {
+                            location.reload(); // або просто оновити, якщо не повертає redirect
+                        }
+                    },
+                    error: function (xhr) {
+                        alert('Сталася помилка: ' + xhr.responseText);
+                    },
+                    complete: function () {
+                        $submitBtn.prop('disabled', false);
+                        $submitBtn.html('<i class="fas fa-save me-1"></i> Зберегти зміни');
+                    }
+                });
+            });
+
+        });
+    </script>
 }
 
 @functions {

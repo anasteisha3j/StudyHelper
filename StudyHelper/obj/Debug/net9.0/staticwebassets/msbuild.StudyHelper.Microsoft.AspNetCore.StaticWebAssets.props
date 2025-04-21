@@ -1170,6 +1170,24 @@
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\000ce553-a7b6-483a-bfec-6c982975cc85.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudyHelper</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudyHelper</BasePath>
+      <RelativePath>uploads/2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>ufmcvu8vht</Fingerprint>
+      <Integrity>mvO5zUJLQHIxVPR6y7ptQxihxJ3WMvc2ttybrjvZh+8=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\2e94131b-ae87-4bef-955b-f75c0cc1b82b.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e61915a-e6d3-4169-bec3-bf1a5ccef234.docx'))">
       <SourceType>Package</SourceType>
       <SourceId>StudyHelper</SourceId>
@@ -1187,6 +1205,24 @@
       <CopyToOutputDirectory>Never</CopyToOutputDirectory>
       <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
       <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\5e61915a-e6d3-4169-bec3-bf1a5ccef234.docx'))</OriginalItemSpec>
+    </StaticWebAsset>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf'))">
+      <SourceType>Package</SourceType>
+      <SourceId>StudyHelper</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/StudyHelper</BasePath>
+      <RelativePath>uploads/e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>hi2g8dgg3a</Fingerprint>
+      <Integrity>RzNNzaLk1AeiecXTfpXjWuo8V9J4SKTNgYKSrPdHRsc=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\e1a8ab24-7600-444a-bd0a-fa6d475cdcd3.pdf'))</OriginalItemSpec>
     </StaticWebAsset>
     <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\uploads\ea1b9bac-291c-4202-96d1-451447d614fd.pdf'))">
       <SourceType>Package</SourceType>
