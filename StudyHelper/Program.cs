@@ -191,7 +191,7 @@ app.MapControllerRoute(
     name: "default",
     pattern: "{controller=Home}/{action=Index}/{id?}");
 
-
+app.Run();
 
 static async Task SeedAdminAsync(IServiceProvider serviceProvider)
 {
@@ -230,4 +230,4 @@ static async Task SeedAdminAsync(IServiceProvider serviceProvider)
     }
 }
 
-app.Run();
+
