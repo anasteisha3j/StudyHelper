@@ -1,8 +1,8 @@
 {
   "Files": [
     {
-      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\StudyHelper.bundle.scp.css",
-      "PackagePath": "staticwebassets\\StudyHelper.58jm4k4b38.bundle.scp.css"
+      "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\obj\\Debug\\net9.0\\scopedcss\\projectbundle\\studyhelper.bundle.scp.css",
+      "PackagePath": "staticwebassets\\studyhelper.66sa3vyegl.bundle.scp.css"
     },
     {
       "Id": "D:\\StudyHelperWEB_prod\\StudyHelper\\wwwroot\\css\\site.css",
@@ -293,24 +293,24 @@
       "PackagePath": "staticwebassets\\uploads\\f263dcbb-5707-424e-a531-a67fa8aecbf6.pdf"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StudyHelper.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.studyhelper.props",
+      "PackagePath": "build\\studyhelper.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.studyhelper.props",
+      "PackagePath": "buildMultiTargeting\\studyhelper.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.studyhelper.props",
+      "PackagePath": "buildTransitive\\studyhelper.props"
+    },
+    {
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.studyhelper.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
     },
     {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.StudyHelper.Microsoft.AspNetCore.StaticWebAssets.props",
+      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.studyhelper.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.build.StudyHelper.props",
-      "PackagePath": "build\\StudyHelper.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildMultiTargeting.StudyHelper.props",
-      "PackagePath": "buildMultiTargeting\\StudyHelper.props"
-    },
-    {
-      "Id": "obj\\Debug\\net9.0\\staticwebassets\\msbuild.buildTransitive.StudyHelper.props",
-      "PackagePath": "buildTransitive\\StudyHelper.props"
     }
   ],
   "ElementsToRemove": []
