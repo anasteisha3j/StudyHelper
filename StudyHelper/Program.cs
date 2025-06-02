@@ -229,3 +229,5 @@ static async Task SeedAdminAsync(IServiceProvider serviceProvider)
         await userManager.AddToRoleAsync(adminUser, adminRole);
     }
 }
+
+
